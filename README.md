@@ -92,7 +92,7 @@ Your `.proto` files will look similar to the example below:
 
 ```protobuf
 syntax = "proto3";
-option java_package = "com.a00n.grpc.stubs";
+option java_package = "com.a00n.grpc.stubs"; // replace this with your_package_name_gprc.stubs 
 
 message Student {
   int64 id = 1;
