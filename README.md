@@ -3,7 +3,7 @@
 ## Table of Content
 
 * [Description](#description)
-  * [Server Setup](#server-setup)
+* [Server Setup](#server-setup)
     + [Create a spring boot project](#create-a-spring-boot-project)
     + [Add maven dependencies](#add-maven-dependencies)
     + [Creating the gRPC-Service Definitions](#creating-the-grpc-service-definitions)
@@ -11,7 +11,7 @@
     + [Mapping Grpc Student with Jpa Student](#mapping-grpc-student-with-jpa-student)
     + [Implementing the Service](#implementing-the-service)
     + [Config the server](#config-the-server)
-  * [Client Setup](#client-setup)
+ * [Client Setup](#client-setup)
       - [Create a spring boot project](#create-a-spring-boot-project-1)
       - [Add maven dependencies](#add-maven-dependencies-1)
       - [Generate stubs](#generate-stubs)
@@ -26,7 +26,7 @@
         * [Update a Student](#update-a-student)
         * [Delete a Student](#delete-a-student)
         * [Retrieve a list of students using streams.](#retrieve-a-list-of-students-using-streams)
-  * [Security](#security)
+ * [Security](#security)
     + [Updating Server side](#updating-server-side)
       - [Installing OpenSSL](#installing-openssl)
       - [Generate keys and certificates](#generate-keys-and-certificates)
@@ -37,8 +37,8 @@
       - [Adding the certificate to the Client](#adding-the-certificate-to-the-client)
       - [Creting an Interceptor Class](#creting-an-interceptor-class)
       - [Updating the properties file](#updating-the-properties-file-1)
-  * [References](#references)
-  * [Authors](#authors)
+ * [References](#references)
+ * [Authors](#authors)
 
 ## Description
 In this project, we will be developing a gRPC Spring Boot application with both server and client components. The primary objective is to implement CRUD (Create, Read, Update, Delete) operations for managing student records. The application will enable functionalities such as adding new students, deleting existing records, updating student information, and retrieving a list of students
